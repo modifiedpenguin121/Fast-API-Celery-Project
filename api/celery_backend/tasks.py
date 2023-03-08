@@ -11,7 +11,7 @@ celery_log = get_task_logger(__name__)
 
 
 
-app = Celery("app", broker="amqps://ap:RabbitMQ-23@mq1.egrabber.net:5671",backend="rpc://")
+app = Celery("app", broker="",backend="rpc://")
 
 
 
